@@ -1,6 +1,33 @@
 asgiref==3.5.1
+astroid==2.11.3
+autopep8==1.6.0
 backports.zoneinfo==0.2.1
+dill==0.3.4
 Django==4.0.4
+djangorestframework==3.13.1
+isort==5.10.1
+lazy-object-proxy==1.7.1
+mccabe==0.7.0
+pep8==1.7.1
+platformdirs==2.5.2
 psycopg2==2.9.3
 psycopg2-binary==2.9.3
+pycodestyle==2.8.0
+pylint==2.13.7
+pytz==2022.1
 sqlparse==0.4.2
+toml==0.10.2
+tomli==2.0.1
+typing_extensions==4.2.0
+wrapt==1.14.0
+
+
+# this dependencies are before installing the dev dependencies, will revert back on deployment
+# asgiref==3.5.1
+# backports.zoneinfo==0.2.1
+# Django==4.0.4
+# djangorestframework==3.13.1
+# psycopg2==2.9.3
+# psycopg2-binary==2.9.3
+# pytz==2022.1
+# sqlparse==0.4.2
